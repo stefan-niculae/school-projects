@@ -60,4 +60,9 @@ _Year 2, Semester 1, Operating Systems class._ Simulates the Word Count Unix com
 
 ### Tired Explorer
 **[Java]**
-_Year 2, Semester 2, Advanced Programming Techiques._ Step by step evolution of a climber that can has to traverse an area of different heights and must do so with the least effort possible.
+_Year 2, Semester 1, Advanced Programming Techiques._ Step by step evolution of a climber that can has to traverse an area of different heights and must do so with the least effort possible.
+
+
+### GUI Chatroom
+**[Java]**
+_Year 2, Semester 2, Advanced OOP._ Client and Server for a chatroom with a Graphical User Interface.
