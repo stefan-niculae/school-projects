@@ -33,3 +33,35 @@ And finally, some classes required bigger projects – which received a repo al
 * Software Development Methodologies *(4)* – [Senile de Foc](https://github.com/stefan1niculae/senile-de-foc)
 * Web Development *(5)* – [Blacksmith](https://github.com/stefan1niculae/blacksmith)
 * Software Engineering *(6)* – [EasyVim](https://github.com/stefan1niculae/easyVim)
+
+
+
+The name inside [brackets] is the (main) language of the project.
+
+## Semester 1
+
+## Semester 2
+
+## Semester 3
+
+## Semester 4
+
+### Advanced Object Oriented Programming
+
+#### Calculator
+
+Uses a client-server architecture. [Java]
+
+![Calculator](Calculator/screenshot.png)
+
+## Semester 5
+
+## Semester 6
+
+### Compilation Techniques
+
+#### Python Lexer
+
+Python code syntactical lexer, from scratch. [Python].
+
+ ![PyLex](Python Lexer/screenshot.png)
