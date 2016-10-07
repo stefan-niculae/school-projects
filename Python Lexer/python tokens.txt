@@ -1,0 +1,100 @@
+For python version 3.5
+Notable version changes:
+  print is not a keyword (like in 2.x)
+  0003 is an illegal token, not an octal number (like in 2.x)
+  0003j is a legal complex number
+  @ and @= are matrix multiplication operators (new in 3.5)
+  formatted (interpolated) strings are not yet introduced (coming in 3.6)
+  await and async are not yet introduced (coming in 3.7)
+
+
+References
+  https://www.ics.uci.edu/~pattis/ICS-31/lectures/tokens.pdf
+  http://www.tutorialspoint.com/python/python_basic_operators.htm
+  https://docs.python.org/3/reference/lexical_analysis.html
+
+Legend
+  ' '   denotes the blank character
+  >     denotes a definition
+
+
+Definitions
+  lower        a-z
+  upper        A-Z
+  digit        0-9
+  ordinary     _ ( ) [ ] { } + - * / % ! & | ~ ^ < = > , . : ; $ ? # ` \
+  graphic      lower | upper | digit | ordinary
+  whitespace   \t \n ' '
+
+  binary_digit  0 | 1
+  octal_digit   0-7
+  hex_digit     digit | a-f | A-F
+  non_0_digit   1-9
+  str_char      graphic | whitespace
+
+
+Keywords
+  as assert break class continue def del elif else
+  except finally for from global if import lambda
+  nonlocal pass raise return try while with yield
+
+
+Operators
+  arithmetic    +  -  **  /  //  %  *  @
+  arith assign  += -= **= /= //= %= *= @=
+
+  unary bit-w   ~
+  bin bit-wise  &  |  ^  <<  >>
+  bit-w assign  &= |= ^= <<= >>=
+
+  relational    == != <= >= < > in 'not in'
+
+  assignment    =
+
+  logical       not and or
+
+  identity      is 'is not'
+
+
+
+Identifiers
+  start        lower | upper | _
+  body         start (start | digit)
+
+
+Delimiters
+  grouping      ( ) [ ] { }
+  punctuation   . , : ; -> ...
+  line_cont     \
+
+
+Literals
+  bool          True | False
+  none          None
+
+  decimal_int   non_0_digit digits | 0s
+  binary        0 (b|B) binary_digits
+  octal         0 (o|O) octal_digits
+  hex           0 (x|X) hex_digits
+
+  >mantissa     [digits] . digits
+  >exponent     (e|E) [+-] digits
+  float         (mantissa [exponent]) | (digits exponent)
+  imaginary     (digits | float) (j | J)
+
+  >raw_opt      r | R
+  >legacy_opt   u | U
+  >str_prefix   raw_opt | legacy_opt
+
+  short_str     ' (str_chars | ") ' | " (str_chars | ' ) "
+  long_str      """ str_chars """ | ''' str_chars '''
+  string        [str_prefix] (short_str | long_str)
+
+  >bytes_ind    b | B
+  >bytes_prefix [bytes_ind][raw_opt] (at least one of them)
+  short_bytes   ' (str_chars | ") ' | " (str_chars | ' ) "
+  long_bytes    """ str_chars """ | ''' str_chars '''
+  bytes         bytes_prefix (short_bytes | long_bytes)
+
+Comments
+  comment       # (str_chars | \) \n
