@@ -1,68 +1,35 @@
 # school-projects
-A few interesting projects I've done during college
+
+Showcase of some interesting projects I've done during college.
+
+The purpose of this repo is to allow me to fondly remember college times with ease. It is also open for anyone to take a look :)
 
 
 
+## About the classes
 
-### Pretty AVL Tree
-**[C++]**
-_Year 1, Semester 1, Algorithms & Data Structures class._ 
-One of the first 'serious' data structure implementations I've made. It also displays the tree in an ASCII graphical interface.
+Bachelor's lasted 3 years (two semesters each) and Master's – 2 years (two semesters each). The *italicized* number after the name of a class is the semester I attended it in.
 
-### Graph Isomorphism
-**[C++]**
-_Year 1, Semester 2, Graph Theory class._ 
-Backtracking solution (the only non heuristic one existing) to check whether two given graphs are essentially the same.
+Some classes/disciplines naturally lend themselves more to visualization (i.e: Computational Graphics).
 
-### Hungarian Algorithm
-**[C++]**
-_Year 1, Semester 2, Graph Theory class._ 
-Implementation of the hungarian algorithm using bipartite graph matchings and covering.
+Some tend to be too theoretical/mathematical:
 
-### Context free Grammar to Chomsky normal Form
-**[C++]**
-_Year 1, Semester 2, Formal Languages and Automata class._ 
-Any CFG can be converted into CNF. And this program is here to prove it in 5 steps (plus a 6th one for easier reading).
+* Mathematical and Computational Logic _(1)_
+* Mathematical Analysis/Calculus _(1 & 2)_
+* (Linear) Algebra _(1 & 2)_
+* Logic Programming *(4)*
+* Partial Derivatives and Differential Equations *(5)*
+* Declarative Programming *(6)*
+* (Mathematical) Optimization Techniques *(6)*
 
-### Deterministic Finite Automaton Minimization
-**[C++]**
-_Year 1, Semester 2, Formal Languages and Automata class._ 
-Another theorem turned into reality: step by step minimization of a DFA.
+Some are just not too visual:
 
+* Psychopedagogy *(1 - 4)*
+* Databases *(4)*
+* Database Management Systems *(5)*
 
-### Fields
-**[C++]**
-_Year 1, Semester 2, Object Oriented Programming class._ 
-Mathematical Fields over N, Z, R, C, Zn or a carthesian product of those with custom composition rules. Also includes an expression parser.
+And finally, some classes required bigger projects – which received a repo all by themselves:
 
-### Big Numbers
-**[C++]**
-_Year 1, Semester 2, Object Oriented Programming class._ 
-Can store real numbers up to ULL_MAX^ULL_MAX where ULL_MAX = 2^64 - 1. Also supports the standard operations upon them.
-
-### Hamming Code
-**[C#]**
-_Year 2, Semester 1, Computer Networks class._ 
-Sends an arbitrarily large string coded using the appropriate Hamming Code. Also decodes it upon receival.
-
-### Intro in the S language
-**[Standard Language]**
-_Year 2, Semester 1, Computability and Complexity class._ The theory behind the Turing machine is that there can be a language that consists only of four type of instructions (three even) that can do absolutely everything any modern computer can do. And this program is here to show some examples.
-
-### Visual Triangulation
-**[Java]**
-_Year 2, Semester 1, Computational Geometry class._ Triangulation of a set of points that includes a GUI and step-by-step evolution.
-
-### Word Count
-**[C]**
-_Year 2, Semester 1, Operating Systems class._ Simulates the Word Count Unix command. May I say it does it even better than the orginial.
-
-
-### Tired Explorer
-**[Java]**
-_Year 2, Semester 1, Advanced Programming Techiques._ Step by step evolution of a climber that can has to traverse an area of different heights and must do so with the least effort possible.
-
-
-### GUI Chatroom
-**[Java]**
-_Year 2, Semester 2, Advanced OOP._ Client and Server for a chatroom with a Graphical User Interface.
+* Software Development Methodologies *(4)* – [Senile de Foc](https://github.com/stefan1niculae/senile-de-foc)
+* Web Development *(5)* – [Blacksmith](https://github.com/stefan1niculae/blacksmith)
+* Software Engineering *(6)* – [EasyVim](https://github.com/stefan1niculae/easyVim)
