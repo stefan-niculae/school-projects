@@ -58,6 +58,14 @@ Statistical exploration of wether income correlates with age. [R]
 
  ![document](3 Does Money Come with Age/screenshot.png)
 
+### Computer Graphics
+
+#### Triangulation
+
+Checks wether a given point is inside (or on an edge)  a shape via triangulation. [Java]
+
+![UI](3 Triangulation/screenshot.png)
+
 ## Semester 4
 
 ### Web Techniques
