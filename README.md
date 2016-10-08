@@ -121,3 +121,21 @@ Python code syntactical lexer, from scratch. [Python].
 Automaton diagram ([full-size](https://raw.githubusercontent.com/stefan1niculae/school-projects/master/Python%20Lexer/DFA%20diagram.png)):
 
 ![DFA](6 Python Lexer/DFA diagram.png)
+
+## Semester -1
+
+Bonus: high-school
+
+#### Snake 🇷🇴
+
+Moves once per second, opens its mouth and loves special food.
+
+ ![Snake](-1 Snake/screenshot.png)
+
+
+
+#### Whist 🇷🇴
+
+ Helps you with the arithmetics needed for the card game _Whist_.
+
+![screenshot](-1 Whist/screenshot.png)
