@@ -1,0 +1,17 @@
+nav {
+    position: fixed;
+    float: left;
+    width: 3em;
+    height: 100%;
+    top: 0;
+
+    background-color: rgb(196, 196, 196);
+}
+
+nav img {
+    display: block;
+    height: 2em;
+    padding-left: .5em;
+    padding-bottom: 1.5em;
+    padding-top: 2.5em;
+}

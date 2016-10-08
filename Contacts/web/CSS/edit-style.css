@@ -1,0 +1,14 @@
+form.edit * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form.edit input[type=text], form.edit input[type=email] {
+    width: 100%;
+    padding: .15em;
+}
+
+form.edit input[type=submit] {
+    width: 25%;
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: #40a8e6;
+
+    font-size: 3em;
+
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+form {
+    width: 25em;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form * {
+    margin-top: .4em;
+    font-size: 1.2em;
+}
+
+form input[type=text], form input[type=email] {
+    text-align: center;
+}
+
+form input[type=submit] {
+    height: 1.65em;
+
+    margin-top: 1.25em;
+    color: white;
+    border: 2px solid;
+    border-radius: .35em;
+
+    background-color: #40a8e6;
+}
+
+.confirmation {
+    padding-top: 1.65em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.confirmation .success {
+    color: #4bfc6b;
+}
+
+.confirmation .failure {
+    color: #ff5044;
+}

@@ -1,0 +1,64 @@
+form.search {
+    margin-bottom: 4em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+form.search * {
+    padding-top: 0;
+}
+
+/* Used in the edit page */
+form.search input[type=text] {
+    width: 72%;
+    margin-top: 0 !important;
+}
+
+form.search input[type=submit] {
+    width: 25%;
+    margin-left: 3%;
+    margin-top: 0 !important;
+}
+
+/* Used in the search page */
+/*TODO this is lower than the textfield and the submit button*/
+form.search select {
+    width: 25%;
+    margin-top: 0;
+}
+
+form.search input.small[type=text] {
+    width: 50%;
+    margin-left: 2.5%;
+}
+
+form.search input.small[type=submit] {
+    width: 20%;
+    margin-left: 2.5%;
+}
+
+#search-results {
+    width: 90%;
+    margin-left: 5%;
+    border-collapse: collapse;
+}
+
+#search-results td, #search-results th {
+    font-size: 1em;
+    padding: .8em 1em;
+}
+
+#search-results th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: #57a9c9;
+    color: white;
+}
+
+#search-results tr.alt td {
+    color: black;
+    background-color: #e3f2f2;
+}
+

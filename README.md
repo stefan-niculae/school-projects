@@ -58,6 +58,13 @@ Uses a client-server architecture. [Java]
 
 ![Calculator](Calculator/screenshot.png)
 
+#### Contacts
+
+Simple CRUD website for contacts management. [JSP]
+
+![add](Contacts/add screenshot.png)
+![search](Contacts/search screenshot.png)
+
 ## Semester 5
 
 ## Semester 6
