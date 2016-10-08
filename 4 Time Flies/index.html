@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <meta name="theme-color" content="#5fcdfd">
+
+  <title>Time Flies</title>
+  <link rel="icon" href="images/favicon.png">
+
+  <script src="game.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<!-- The background image, we make it a div and not an img so it is not draggable/selectable -->
+<div id="bg"></div>
+
+<section id="splash-menu">
+
+  <img id="splash-title" class="menu" src="images/splash-title.png">
+
+  <img id="play-button" class="menu" src="images/play-button.png" onclick="play()">
+
+  <section id="recent-scores" class="menu">
+    <h1>Recent Scores</h1>
+    <ul id="score-amounts" class="menu">
+      <li>-</li>
+    </ul>
+    <ul id="score-times" class="menu">
+    </ul>
+  </section>
+
+  <section id="difficulty">
+    <input type="checkbox" name="difficulty" value="hard" id="hard-checkbox">
+    <p>HARD</p>
+  </section>
+
+
+</section>
+
+
+<h1 id="score">SCORE 0</h1>
+</body>
+
+</html>

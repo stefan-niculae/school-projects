@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#bg {
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/bg.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 175%;
+}
+
+/* Splash Menu */
+
+.menu {
+    position: absolute;
+    /* will be centered in js*/
+}
+
+#splash-title {
+    top: 12vh;
+    width: 50%;
+}
+
+#play-button {
+    top: 38vh;
+    width: 15%;
+}
+
+#recent-scores {
+    left: 32%;
+    top: 70vh;
+}
+
+#recent-scores * {
+    font-family: "CarterOne", serif;
+    color: #555555;
+}
+
+#recent-scores h1 {
+    font-size: 2.25em;
+}
+
+#recent-scores ul {
+    list-style-type: none;
+}
+
+#score-times {
+    font-size: 1em;
+    left: 82%;
+}
+
+#score-times li {
+    /* Because they are smaller than the score amounts */
+    padding-top: 1.22em;
+    color: #8c8c8c;
+}
+
+#score-amounts {
+    text-align: center;
+    left: 47%;
+    font-size: 2em;
+}
+
+#difficulty {
+    position: fixed;
+    float: left;
+    color: #e31010;
+    font-family: "CarterOne", serif;
+    top: 95%;
+    left: .5%;
+    font-size: 1.25em;
+}
+
+#difficulty p {
+    position: absolute;
+    display: inline;
+    top: .15em;
+    left: .75em;
+}
+
+/*Game UI */
+
+#score {
+    position: fixed;
+    padding-top: 2.5vh;
+    text-align: center;
+    width: 100%;
+
+    letter-spacing: .5vw;
+    font-size: 3.5em;
+    font-family: "CarterOne", serif;
+    font-weight: bolder;
+
+    color: #555555;
+
+    visibility: hidden;
+}
+
+@font-face {
+    font-family: "CarterOne";
+    src: url(fonts/CarterOne.ttf);
+}
+
+#hourglass {
+    position: absolute;
+    background-image: url(images/hourglass.png);
+    background-size: 100% 100%;
+    width: 130px;
+    height: 160px;
+}

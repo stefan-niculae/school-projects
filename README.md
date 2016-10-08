@@ -52,6 +52,15 @@ The name inside [brackets] is the (main) language of the project.
 
 ## Semester 4
 
+### Web Techniques
+
+#### Time Flies
+
+Simple game done in vanilla html, js & css. The idea is to catch as many hourglasses as you can. The more you catch, the faster they come (launched in a random direction). [JavaScript] 
+
+![Menu](4 Time Flies/start screenshot.png)
+![Game](4 Time Flies/game screenshot.png)
+
 ### Advanced Object Oriented Programming
 
 #### Calculator
