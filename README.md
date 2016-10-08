@@ -58,6 +58,12 @@ Uses a client-server architecture. [Java]
 
 ![Calculator](Calculator/screenshot.png)
 
+#### Chatroom
+
+Broadcast and peer-to-peer cross-process communication. [Java]
+
+ ![Client](Chatroom/screenshot.png)
+
 #### Contacts
 
 Simple CRUD website for contacts management. [JSP]

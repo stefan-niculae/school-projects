@@ -1,0 +1,44 @@
+JFDML JFormDesigner: "5.2.1.0.138" Java: "1.6.0_65" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"title": "Change Username"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				"minimumSize": new java.awt.Dimension( 300, 300 )
+				"preferredSize": new java.awt.Dimension( 300, 300 )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "userDialogField"
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 4
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 225
+					"height": 35
+					"x": 35
+					"y": 90
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "userDialogButton"
+					"text": "Ok"
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 4
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 100
+					"y": 170
+					"width": 90
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 300, 300 )
+		} )
+	}
+}

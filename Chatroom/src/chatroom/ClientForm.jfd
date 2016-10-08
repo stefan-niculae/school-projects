@@ -1,0 +1,241 @@
+JFDML JFormDesigner: "5.2.1.0.138" Java: "1.6.0_65" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.CardLayout ) ) {
+			name: "clientLayout"
+			"resizable": false
+			"$sizePolicy": 1
+			"$locationPolicy": 1
+			"defaultCloseOperation": 3
+			"name": "Chatroom"
+			"visible": true
+			"minimumSize": new java.awt.Dimension( 500, 500 )
+			"title": "Chatroom Client"
+			auxiliary() {
+				"JavaCodeGenerator.variableModifiers": 4
+			}
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "disconnectedLayout"
+				"preferredSize": new java.awt.Dimension( 500, 500 )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "connectButton"
+					"text": "Log In"
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 4
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 195
+					"y": 290
+					"width": 80
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "usernameTextField"
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 4
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 130
+					"y": 200
+					"width": 200
+					"height": 35
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "disconnected"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "connectedLayout"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+					name: "loggedInPanel"
+					"requestFocusEnabled": false
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "changeUsernameButton"
+						"text": "Change User"
+						"minimumSize": &Dimension0 new java.awt.Dimension( 115, 27 )
+						"preferredSize": &Dimension1 new java.awt.Dimension( 115, 27 )
+						"requestFocusEnabled": false
+						"nextFocusableComponent": new FormReference( "roomTextField" )
+						auxiliary() {
+							"JavaCodeGenerator.variableModifiers": 4
+						}
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "West"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "loggedInText"
+						"columns": 20
+						"editable": false
+						"componentOrientation": sfield java.awt.ComponentOrientation LEFT_TO_RIGHT
+						"componentPopupMenu": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"cursor": new java.awt.Cursor( 0 )
+						"minimumSize": new java.awt.Dimension( 100, 10 )
+						"nextFocusableComponent": new FormReference( "disconnectButton" )
+						"preferredSize": new java.awt.Dimension( 383, 10 )
+						"verifyInputWhenFocusTarget": false
+						"margin": new java.awt.Insets( 4, 20, 0, 0 )
+						"background": new java.awt.Color( 232, 232, 232, 255 )
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						auxiliary() {
+							"JavaCodeGenerator.variableModifiers": 4
+						}
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "Center"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "disconnectButton"
+						"text": "Disconnect"
+						"minimumSize": #Dimension0
+						"preferredSize": #Dimension1
+						"requestFocusEnabled": false
+						"nextFocusableComponent": new FormReference( "roomTextField" )
+						auxiliary() {
+							"JavaCodeGenerator.variableModifiers": 4
+						}
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "East"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "North"
+				} )
+				add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+					name: "tabbedPane"
+					"focusable": false
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+						name: "roomTab"
+						"nextFocusableComponent": new FormReference( "roomTextField" )
+						add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+							name: "roomSplitPane"
+							"focusable": false
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+								name: "participantsScroll"
+								"preferredSize": new java.awt.Dimension( 100, 20 )
+								"focusable": false
+								"minimumSize": new java.awt.Dimension( 100, 23 )
+								add( new FormComponent( "javax.swing.JTextPane" ) {
+									name: "participantsText"
+									"editable": false
+									auxiliary() {
+										"JavaCodeGenerator.variableModifiers": 4
+									}
+								} )
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "left"
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+								name: "roomPanel"
+								"focusable": false
+								"preferredSize": new java.awt.Dimension( 89, 49 )
+								add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+									name: "roomConversationScroll"
+									"focusable": false
+									"autoscrolls": true
+									add( new FormComponent( "javax.swing.JTextPane" ) {
+										name: "roomConversationText"
+										"editable": false
+										auxiliary() {
+											"JavaCodeGenerator.variableModifiers": 4
+										}
+									} )
+								}, new FormLayoutConstraints( class java.lang.String ) {
+									"value": "Center"
+								} )
+								add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+									name: "roomInput"
+									"focusable": false
+									add( new FormComponent( "javax.swing.JTextField" ) {
+										name: "roomTextField"
+										"nextFocusableComponent": new FormReference( "roomSendButton" )
+										auxiliary() {
+											"JavaCodeGenerator.variableModifiers": 4
+										}
+									}, new FormLayoutConstraints( class java.lang.String ) {
+										"value": "Center"
+									} )
+									add( new FormComponent( "javax.swing.JButton" ) {
+										name: "roomSendButton"
+										"text": "Send"
+										auxiliary() {
+											"JavaCodeGenerator.variableModifiers": 4
+										}
+									}, new FormLayoutConstraints( class java.lang.String ) {
+										"value": "East"
+									} )
+								}, new FormLayoutConstraints( class java.lang.String ) {
+									"value": "Last"
+								} )
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "right"
+							} )
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "Center"
+						} )
+					}, new FormLayoutConstraints( null ) {
+						"title": "Room"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+						name: "privateTab"
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "privateConversationScroll"
+							"focusable": false
+							"autoscrolls": true
+							add( new FormComponent( "javax.swing.JTextPane" ) {
+								name: "privateConversationText"
+								"editable": false
+								auxiliary() {
+									"JavaCodeGenerator.variableModifiers": 4
+								}
+							} )
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "Center"
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+							name: "privateInput"
+							add( new FormComponent( "javax.swing.JComboBox" ) {
+								name: "privateRecipientBox"
+								"preferredSize": new java.awt.Dimension( 100, 27 )
+								"minimumSize": new java.awt.Dimension( 100, 27 )
+								auxiliary() {
+									"JavaCodeGenerator.variableModifiers": 4
+								}
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "West"
+							} )
+							add( new FormComponent( "javax.swing.JTextField" ) {
+								name: "privateTextField"
+								auxiliary() {
+									"JavaCodeGenerator.variableModifiers": 4
+								}
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "Center"
+							} )
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "privateSendButton"
+								"text": "Send"
+								"enabled": false
+								auxiliary() {
+									"JavaCodeGenerator.variableModifiers": 4
+								}
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "East"
+							} )
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "South"
+						} )
+					}, new FormLayoutConstraints( null ) {
+						"title": "Private"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "connected"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 500, 500 )
+		} )
+	}
+}
+
