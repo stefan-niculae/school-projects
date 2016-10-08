@@ -38,6 +38,8 @@ And finally, some classes required bigger projects – which received a repo al
 
 ## About the projects
 
+As I attended college in Romania, (parts of) some projects are written in romanian – signaled with a flag 🇷🇴.
+
 I will include one/two screenshots, or a gif, if appropriate, for each project.
 
 The name inside [brackets] is the (main) language of the project.
@@ -72,6 +74,14 @@ Simple CRUD website for contacts management. [JSP]
 ![search](Contacts/search screenshot.png)
 
 ## Semester 5
+
+### (System) Simulation Techniques
+
+#### Store Planning Improvement 🇷🇴
+
+Simulation for a real food store with the goal of improving lunch-time customer flow. [GPSS]
+
+ ![screenshot](Store Planning Improvement/screenshot.png)
 
 ## Semester 6
 
