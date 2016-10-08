@@ -70,6 +70,6 @@ Python code syntactical lexer, from scratch. [Python].
 
  ![PyLex](Python Lexer/screenshot.png)
 
-Automaton diagram:
+Automaton diagram ([full-size](https://raw.githubusercontent.com/stefan1niculae/school-projects/master/Python%20Lexer/DFA%20diagram.png)):
 
 ![DFA](Python Lexer/DFA diagram.png)
