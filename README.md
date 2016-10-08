@@ -64,7 +64,7 @@ Uses a client-server architecture. [Java]
 
 Broadcast and peer-to-peer cross-process communication. [Java]
 
- ![Client](Chatroom/screenshot.png)
+ ![Client](4 Chatroom/screenshot.png)
 
 #### Contacts
 
