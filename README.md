@@ -36,6 +36,10 @@ And finally, some classes required bigger projects – which received a repo al
 
 
 
+## About the projects
+
+I will include one/two screenshots, or a gif , if appropriate, for each project.
+
 The name inside [brackets] is the (main) language of the project.
 
 ## Semester 1
@@ -65,3 +69,7 @@ Uses a client-server architecture. [Java]
 Python code syntactical lexer, from scratch. [Python].
 
  ![PyLex](Python Lexer/screenshot.png)
+
+Automaton diagram:
+
+![DFA](Python Lexer/DFA diagram.png)
