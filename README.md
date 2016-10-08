@@ -38,7 +38,7 @@ And finally, some classes required bigger projects – which received a repo al
 
 ## About the projects
 
-I will include one/two screenshots, or a gif , if appropriate, for each project.
+I will include one/two screenshots, or a gif, if appropriate, for each project.
 
 The name inside [brackets] is the (main) language of the project.
 
