@@ -38,7 +38,7 @@ And finally, some classes required bigger projects – which received a repo al
 
 ## About the projects
 
-As I attended college in Romania, (parts of) some projects are written in romanian – signaled with a flag 🇷🇴.
+As I attended college in Romania, (parts of) some projects are written in romanian – signaled with a flag  🇷🇴.
 
 I will include one/two screenshots, or a gif, if appropriate, for each project.
 
@@ -49,6 +49,14 @@ The name inside [brackets] is the (main) language of the project.
 ## Semester 2
 
 ## Semester 3
+
+### Statistics and Probabilities
+
+#### Does Money Come with Age? 🇷🇴
+
+Statistical exploration of wether income correlates with age. [R]
+
+ ![document](3 Does Money Come with Age/screenshot.png)
 
 ## Semester 4
 

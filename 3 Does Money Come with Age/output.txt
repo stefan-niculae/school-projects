@@ -1,0 +1,65 @@
+
+> iq.data<-read.table("C:\\Documents and Settings\\Student\\Desktop\\lq.dat",col.names=c("dep","iq","bp"))
+> iq.data
+
+
+
+> iqnd<-iq.data[iq.data[,"dep"]=="ND","iq"]
+> iqnd
+ [1] 103 124 124 104  92 124  99  92 116  99 117  89 125 127 112  48 139 118 106 117 123 118 117 141
+[25] 124 110  98 109 120 127 103 118 117 115 119 117  92 101 119 144 119 127 113 127 103 128  86 112
+[49] 115 117  99 110 117  96 118 126 126  89 102 134  93 115  99 122 106 124 100 114 121 119 108 110
+[73] 127 118 107 110 114 118 114
+
+> iqd<-iq.data[iq.data[,"dep"]=="D","iq"]
+> iqd
+ [1]  96  22  81 100 107 129  84 101 139 111  99 123 102 101 121
+
+> summary(iqnd)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   48.0   103.5   116.0   112.8   121.5   144.0 
+> summary(iqd)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   22.0    97.5   101.0   101.1   116.0   139.0 
+> 
+> boxplot(iqnd,iqd)
+> par(mfrow=c(2,1))
+> hist(iqnd)
+> hist(iqd)
+> > qqnorm(iqd)
+> qqline(iqd)
+> qqnorm(iqnd)
+> qqline(iqd)
+> > var(iqnd)
+[1] 205.5044
+> var(iqd)
+[1] 729.2095
+
+var.test(iqnd,iqd)
+
+var(iqnd[iqnd>50])
+var(iqd[iqd>50])
+
+> > var.test(iqnd[iqnd>50],iqd[iqd>50])
+
+        F test to compare two variances
+
+data:  iqnd[iqnd > 50] and iqd[iqd > 50] 
+F = 0.5664, num df = 77, denom df = 13, p-value = 0.1283
+alternative hypothesis: true ratio of variances is not equal to 1 
+95 percent confidence interval:
+ 0.2102836 1.1765891 
+sample estimates:
+ratio of variances 
+         0.5664063 
+
+>  t.test(iqnd[iqnd>50],iqd[iqd>50])
+
+> plot(iq.data[,"iq"],iq.data[,"bp"])
+abline(lsfit(iq.data[,"iq"],iq.data[,"bp"]))
+cor.test(iq.data[,"iq"],iq.data[,"bp"])
+
+
+
+
+
