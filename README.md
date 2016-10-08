@@ -58,7 +58,7 @@ The name inside [brackets] is the (main) language of the project.
 
 Uses a client-server architecture. [Java]
 
-![Calculator](Calculator/screenshot.png)
+![Calculator](4 Calculator/screenshot.png)
 
 #### Chatroom
 
@@ -70,8 +70,8 @@ Broadcast and peer-to-peer cross-process communication. [Java]
 
 Simple CRUD website for contacts management. [JSP]
 
-![add](Contacts/add screenshot.png)
-![search](Contacts/search screenshot.png)
+![add](4 Contacts/add screenshot.png)
+![search](4 Contacts/search screenshot.png)
 
 ## Semester 5
 
@@ -81,7 +81,7 @@ Simple CRUD website for contacts management. [JSP]
 
 Simulation for a real food store with the goal of improving lunch-time customer flow. [GPSS]
 
- ![screenshot](Store Planning Improvement/screenshot.png)
+ ![screenshot](5 Store Planning Improvement/screenshot.png)
 
 ## Semester 6
 
@@ -91,8 +91,8 @@ Simulation for a real food store with the goal of improving lunch-time customer 
 
 Python code syntactical lexer, from scratch. [Python].
 
- ![PyLex](Python Lexer/screenshot.png)
+ ![PyLex](6 Python Lexer/screenshot.png)
 
 Automaton diagram ([full-size](https://raw.githubusercontent.com/stefan1niculae/school-projects/master/Python%20Lexer/DFA%20diagram.png)):
 
-![DFA](Python Lexer/DFA diagram.png)
+![DFA](6 Python Lexer/DFA diagram.png)
