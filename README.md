@@ -17,6 +17,7 @@ Some tend to be too theoretical/mathematical:
 * Mathematical and Computational Logic _(1)_
 * Mathematical Analysis/Calculus _(1 & 2)_
 * (Linear) Algebra _(1 & 2)_
+* Calculability & Complexity *(3)*
 * Logic Programming *(4)*
 * Partial Derivatives and Differential Equations *(5)*
 * Declarative Programming *(6)*
@@ -65,6 +66,14 @@ Statistical exploration of wether income correlates with age. [R]
 Checks wether a given point is inside (or on an edge)  a shape via triangulation. [Java]
 
 ![UI](3 Triangulation/screenshot.png)
+
+### Calculability & Complexity
+
+#### Multiplying Machine
+
+Turing Machine for multiplying a number by a constant. [JFLAP]
+
+![screenshot](3 Multiplying Machine/screenshot.jpg)
 
 ## Semester 4
 

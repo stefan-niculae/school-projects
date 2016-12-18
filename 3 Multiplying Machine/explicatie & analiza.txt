@@ -1,0 +1,47 @@
+ENUNT:
+IN:	Un numar natural n in baza 1
+OUT:	n * k in baza 1 (in cazul nostru k = 3)
+
+
+EXEMPLU: (n = 4)
+B 1 1 1 1 1 B
+B 1 1 1 1 1    1 1 1 1    1 1 1 1 B
+
+
+ALGORITM:
+P1 (q0):	Inlocuim primul 1 cu Y (pt ca folosim repr in baza 1 cu 2 = 111)
+
+P2 (q1):	Mergem spre dreapta, peste {1}, pana la primul B, il inlocuim cu 2
+
+P3 (q2-q4):	Mergem spre stanga, peste {1}, pana la 2 sau 3
+P3a (q3):	Mergem spre stanga, peste {X}, pana la primul 1 (nemarcat), il marcam cu X
+		Mergem spre dreapta, peste {1, X, 2, 3}, pana la B, il inlocuim cu 1
+		REPETA P3 (pana cand nu mai gasim 1 nemarcat, adica ne oprim pe Y)
+
+P4 (q5):	Mergem spre dreapta si pe drum inlocuim toti X cu 1
+		Inlocuim 2 cu 3
+		MERGI LA P3a
+
+P5 (q6):	Inlocuim 3 cu 1 (un 1 pe care il scadem din primul marcat cu Y)
+		Mergem in stanga, peste {1}, pana la Y si il inlocuim cu 0 sau B	
+
+
+COMPLEXITATI:
+CS:	k * n + 1 (pt ca folosim reprezentarea 2 = 11) + 1 (daca la ultimul pas il inlocuim pe Y cu 0, nu cu B)
+
+CT:	1 + 			(la P1 inlocuim un Y)
+	n + 1 +			(la P2 mergem peste fiecare 1 din n deci n * 1, 
+				 apoi inlocuim un B cu 2)
+	(2n + 1) * n +		(la P3 mergem spre stanga initial zero deplasari, 
+				 apoi spre dreapta o deplasare, 
+				 apoi o deplasare in stanga pana la 2, inca una peste X pana la 1 inca una inapoi la 2 si inca una peste 1 scris
+				 maxim n deplasari spre stanga si n in dreapta (+1 pentru ca trecem si peste 2)
+				 Repetam asta pt fiecare 1 din n)
+	n + 1 +	3n * n +	(la P4 traversam n caractere X, inlocuim 2 cu 3,
+				 P3 de data asta va traversa pentru fiecare 1 din n maxim (1 + 2) pozitii)
+	1 + n			(la P5 inlocum pe 3 cu 1 si apoi traversam n caractere 1)
+
+	= 1 + 1 + 1 + 1 + n + n + n + (2n+1)n + 3n^2
+	= 4 + 4n + 5n^2
+
+	=> O(n^2)
