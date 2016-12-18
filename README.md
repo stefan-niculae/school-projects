@@ -57,6 +57,14 @@ Essay on Octonions and Cayley's Algebra.
 
 ![screenshot](2 Octonions/screenshot.png)
 
+### Algebra II
+
+#### Matrix Operations 🇷🇴
+
+Row-wise operations including Polynomial arithmetic. For calculating the determinant or for finding the Jacobian matrix. [C++]
+
+![screenshot](2 Algebra II/screenshot.png)
+
 ## Semester 3
 
 ### Statistics and Probabilities
