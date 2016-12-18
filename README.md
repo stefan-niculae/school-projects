@@ -100,13 +100,30 @@ Simple CRUD website for contacts management. [JSP]
 
 ## Semester 5
 
-### (System) Simulation Techniques
+### System Simulation Techniques
 
 #### Store Planning Improvement 🇷🇴
 
 Simulation for a real food store with the goal of improving lunch-time customer flow. [GPSS]
 
  ![screenshot](5 Store Planning Improvement/screenshot.png)
+
+### Geometry Concepts for Computer Graphics
+
+#### 2D Birds
+
+2D birds (that look like bats) which move on a mouse-defined path [OpenGL].
+
+![demo](5 Birds/demo.gif)
+
+
+
+#### 3D Dinosaurs
+
+3D dinosaurs in a lighted scene which can be observed by flying around [OpenGL].
+
+![screenshot](5 Dinosaurs/screenshot.png)
+
 
 ## Semester 6
 
