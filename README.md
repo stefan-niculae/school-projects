@@ -118,6 +118,14 @@ Simple CRUD website for contacts management. [JSP]
 ![add](4 Contacts/add screenshot.png)
 ![search](4 Contacts/search screenshot.png)
 
+### Didactics of Informatics
+
+#### Random Points 🇷🇴
+
+Small paper on uniformly generating points inside a polygon. [Latex]
+
+![screenshot](4 Random Points/screenshot.png)
+
 ## Semester 5
 
 ### System Simulation Techniques
