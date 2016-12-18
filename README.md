@@ -135,6 +135,14 @@ Small paper on uniformly generating points inside a polygon. [Latex]
 
 ![screenshot](4 Random Points/screenshot.png)
 
+### Software Development Methodologies
+
+#### Exam Cheatsheet
+
+Managed to fit the entire material in just under three pages.
+
+![screenshot](4 Methodologies Cheatsheet/screenshot.png)
+
 ## Semester 5
 
 ### System Simulation Techniques
