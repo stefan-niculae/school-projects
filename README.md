@@ -51,9 +51,9 @@ The name inside [brackets] is the (main) language of the project.
 
 ### Geometry
 
-#### Octonions
+#### Octonions 🇷🇴
 
-Essay on Octonions and Cayley's Algebra. 🇷🇴
+Essay on Octonions and Cayley's Algebra. 
 
 ![screenshot](2 Octonions/screenshot.png)
 
