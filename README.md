@@ -77,6 +77,26 @@ Simple game done in vanilla html, js & css. The idea is to catch as many hourgla
 ![Menu](4 Time Flies/start screenshot.png)
 ![Game](4 Time Flies/game screenshot.png)
 
+### Artificial Intelligence
+
+#### Point Classification
+
+Perceptron implementation for 2D-points classification. [Matlab]
+
+![demo](4 Perceptron/demo.gif)
+
+#### 3D Loss
+
+Visualization of loss function for three parameters. [Matlab]
+
+![screenshot](4 Loss/screenshot.png)
+
+### Letter Recognition
+
+Noisy letters recognized using the Neural Network Toolbox. [Matlab]
+
+![screenshot](4 Letter Recognition/screenshot.png)
+
 ### Advanced Object Oriented Programming
 
 #### Calculator
@@ -145,14 +165,14 @@ Bonus: high-school
 
 #### Snake 🇷🇴
 
-Moves once per second, opens its mouth and loves special food.
+Moves once per second, opens its mouth and loves special food. [C++]
 
- ![Snake](-1 Snake/screenshot.png)
+![Snake](-1 Snake/screenshot.png)
 
 
 
 #### Whist 🇷🇴
 
- Helps you with the arithmetics needed for the card game _Whist_.
+ Helps you with the arithmetics needed for the card game _Whist_. [C++]
 
 ![screenshot](-1 Whist/screenshot.png)
