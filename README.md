@@ -49,6 +49,14 @@ The name inside [brackets] is the (main) language of the project.
 
 ## Semester 2
 
+### Geometry
+
+#### Octonions
+
+Essay on Octonions and Cayley's Algebra. 🇷🇴
+
+![screenshot](2 Octonions/screenshot.png)
+
 ## Semester 3
 
 ### Statistics and Probabilities
