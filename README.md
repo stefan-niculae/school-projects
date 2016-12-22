@@ -49,6 +49,14 @@ The name inside [brackets] is the (main) language of the project.
 
 ## Semester 2
 
+### Object Oriented Programming
+
+#### Big Numbers 🇷🇴
+
+Data structure and operations for big integer and real numbers. [C++]
+
+![screenshot](2 Big Numbers/screenshot.png)
+
 ### Geometry
 
 #### Octonions 🇷🇴
