@@ -99,6 +99,16 @@ Turing Machine for multiplying a number by a constant. [JFLAP]
 
 ![screenshot](3 Multiplying Machine/screenshot.jpg)
 
+### Advanced Programming Techniques
+
+#### Tired Explorer
+
+An explorer walks from the top of the map to the bottom. Each cell requires a certain amount of effort. Greedy implementation to find the optimal path — with matrix visualization. [Java]
+
+![screenshot](3 Tired Explorer/screenshot.png)
+
+
+
 ## Semester 4
 
 ### Web Techniques
