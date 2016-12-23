@@ -22,7 +22,7 @@ A flag 🇷🇴 indicates that the project is written in romanian.
 
 I have included both projects with an interesting outcome, and ones that are stand out through their implementation.
 
-Earlier projects may not seem as impressive — their TODO
+Earlier projects may not seem as impressive — the time of their creation should be kept in mind. Complexity should be treated relatively.
 
 
 
@@ -152,6 +152,14 @@ Some classes required bigger projects — they each get a separate repo:
 [JFLAP] Turing Machine for multiplying a number by a constant.
 
 ![screenshot](3 Multiplying Machine/screenshot.jpg)
+
+### Operating Systems
+
+#### Inplace Matrix 🇷🇴
+
+[C] Addition or multiplication on matrices read from binary files, without storing them in memory.
+
+![screenshot](3 Inplace Matrix/screenshot.png)
 
 ### Advanced Programming Techniques
 
