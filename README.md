@@ -87,6 +87,14 @@ Some classes required bigger projects — they each get a separate repo:
 
 ## Semester 2
 
+### Formal Languages and Automata
+
+#### Chomskify 🇷🇴
+
+[C++] Transform a Context-Free Grammar into Chomsky Normal-Form.
+
+![screenshot](2 Chomskify/screenshot.png)
+
 ### Object Oriented Programming
 
 #### Big Numbers 🇷🇴
