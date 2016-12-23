@@ -1,0 +1,68 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <h1>My friends</h1>
+
+  <div class="posts">
+  {% for user in friends %}
+    <div class="media">
+      <a class="media-left" href="#">
+        <img src="{{ user.avatar_url }}">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <a href="{% url 'profile' user.user.username %}">
+          {{ user.user.username }}
+          </a>
+        </h4>
+          {% if user in current_user.friends.all and user.user not in pending %}
+            <div>
+              Pending
+            </div>
+          {% endif %}
+          {% for x in pending %}
+            {{x}} {{current_user}}
+          {% endfor %}
+
+        {% if user.user.friends.all %}
+          {% for x in user.user.friends.all %}
+            {% if x.user == current_user %}
+              Wants to add you
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+            {% if current_user in user.user.friends.all %}
+              He has me
+            {% endif%}
+      </div>
+    </div>
+  {% endfor %}
+  {% for user in non_friends %}
+    <div class="media">
+      <a class="media-left" href="#">
+        <img src="{{ user.avatar_url }}">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <a href="{% url 'profile' user.user.username %}">
+          {{ user.user.username }}
+          </a>
+        </h4>
+      </div>
+          <a href="{% url 'friend_page_request' user.user.pk %}">
+            Add to friends
+          </a>
+          <a href="{% url 'friend_page_request_auto' user.user.pk %}">
+            Auto friend
+          </a>
+        {% if user.user.friends.all %}
+          {% for x in user.user.friends.all %}
+            {% if x.user == current_user %}
+              Wants to add you
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+    </div>
+  {% endfor %}
+  </div>
+{% endblock %}

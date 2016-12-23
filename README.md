@@ -121,6 +121,14 @@ Some classes required bigger projects — they each get a separate repo:
 
 ## Semester 3
 
+### Python Web Dev
+
+#### Fesbuc
+
+[Python] Social network clone developed during the end-of-semester hackathon.
+
+![screenshot](3 Fesbuc/screenshot.png)
+
 ### Statistics and Probabilities
 
 #### Does Money Come with Age? 🇷🇴

@@ -1,0 +1,88 @@
+{% extends 'layout.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+    <h3>{{ post.text }}</h3>
+    by <a href="{% url 'profile' post.author %}">
+            <b><small>
+                {% if post.author.first_name or post.author.last_name %}
+                    {{ post.author.first_name }}
+                    {{ post.author.last_name }}
+                {% else %}
+                    {{ post.author.username }}
+                {% endif %}
+            </small></b>
+        </a>
+        at <b><small>{{ post.date_added }}</small></b>
+
+    <br>
+
+    <a class="btn btn-primary btn-like" href="{% url 'like' post.pk %}">Like&nbsp;&nbsp;
+        <span class="glyphicon glyphicon-thumbs-up"></span>
+    </a>
+
+    {% if post.likers.count %}
+        Likes:
+        {% for liker in post.likers.all %}
+            <a href="{% url 'profile' liker %}">
+                {% if liker.first_name or liker.last_name %}
+                    {{ liker.first_name }}
+                    {{ liker.last_name }}
+                {% else %}
+                    {{ liker.username }}
+                {% endif %}
+            </a>
+            {% if not forloop.last %}
+                ,
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    <br>
+
+    <a class="btn btn-primary btn-dislike" href="{% url 'dislike' post.pk %}">Dislike&nbsp;&nbsp;
+        <span class="glyphicon glyphicon-thumbs-down"></span>
+    </a>
+
+    {% if post.dislikers.count %}
+        Dislikes:
+        {% for disliker in post.dislikers.all %}
+            <a href="{% url 'profile' disliker %}">
+                {% if disliker.first_name or disliker.last_name %}
+                    {{ disliker.first_name }}
+                    {{ disliker.last_name }}
+                {% else %}
+                    {{ disliker.username }}
+                {% endif %}
+            </a>
+            {% if not forloop.last %}
+                ,
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    <hr>
+
+    <div class="comments">
+        {% for comment in comments %}
+            <div class="media">
+                <a class="media-left" href="#">
+                    <img src="{{ comment.author.profile.avatar_url }}">
+                </a>
+                <div class="media-body">
+                    <b>{{ comment.author }}</b>: {{ comment.text }}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <br>
+
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.text }}
+        <input type="submit" value="Post"/>
+    </form>
+
+{% endblock %}

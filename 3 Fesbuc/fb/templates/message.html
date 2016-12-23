@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div id="sender_receiver">{{message_target}}</div>
+  <div id="messages">
+    {% for message in messages %}
+      {% if message.sender == request.user %}
+      	<div class="messagesent">
+		{{message.text}}
+      	</div>
+      {% else %}
+	<div class="messagereceived">
+		{{message.text}}	
+    	</div>
+      {% endif %}
+    {% endfor %}
+  </div>  
+
+  <div id="message">
+	<form action="message_person" method="POST">
+		{% csrf_token %}
+		To: <input name="to" type="text" value={{to}} /><br/><br/>
+		Message: <br/><textarea name="message" type="text"></textarea><br/><br/>
+		<input type="submit" value="Send message"/>
+	</form>
+  </div>
+{% endblock %}
