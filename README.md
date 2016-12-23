@@ -41,6 +41,7 @@ Some tend to be too theoretical/mathematical:
 * Mathematical and Computational Logic _(semester 1)_
 * Mathematical Analysis/Calculus _(semesters 1 & 2)_
 * (Linear) Algebra _(semesters 1 & 2)_
+* Graph Theory *(semester 2)*
 * Calculability & Complexity *(semester 3)*
 * Logic Programming *(semester 4)*
 * Partial Derivatives and Differential Equations *(semester 5)*
@@ -50,11 +51,12 @@ Some tend to be too theoretical/mathematical:
 
 Some are just not too visual:
 
+* Procedural Programming *(semester 1)*
 * Psychopedagogy *(semesters 1 - 4)*
 * Databases *(semester 4)*
 * Database Management Systems *(semester 5)*
 
-And, unfortunately, cannot be showcased in this format, as a screenshot and one-liner won't do them justice.
+They, unfortunately, cannot be showcased in this format, as a screenshot and one-liner won't do them justice.
 
 
 
