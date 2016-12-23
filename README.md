@@ -2,50 +2,88 @@
 
 Showcase of some interesting projects I've done during college.
 
-The purpose of this repo is to allow me to fondly remember college times with ease. It is also open for anyone to take a look :)
+This repo has three purposes:
 
-
-
-## About the classes
-
-Bachelor's lasted 3 years (two semesters each) and Master's – 2 years (two semesters each). The *italicized* number after the name of a class is the semester I attended it in.
-
-Some classes/disciplines naturally lend themselves more to visualization (i.e: Computational Graphics).
-
-Some tend to be too theoretical/mathematical:
-
-* Mathematical and Computational Logic _(1)_
-* Mathematical Analysis/Calculus _(1 & 2)_
-* (Linear) Algebra _(1 & 2)_
-* Calculability & Complexity *(3)*
-* Logic Programming *(4)*
-* Partial Derivatives and Differential Equations *(5)*
-* Declarative Programming *(6)*
-* (Mathematical) Optimization Techniques *(6)*
-
-Some are just not too visual:
-
-* Psychopedagogy *(1 - 4)*
-* Databases *(4)*
-* Database Management Systems *(5)*
-
-And finally, some classes required bigger projects – which received a repo all by themselves:
-
-* Software Development Methodologies *(4)* – [Senile de Foc](https://github.com/stefan1niculae/senile-de-foc)
-* Web Development *(5)* – [Blacksmith](https://github.com/stefan1niculae/blacksmith)
-* Software Engineering *(6)* – [EasyVim](https://github.com/stefan1niculae/easyVim)
+- allow me to take a trip down the memory lane
+- answer the question _what am I going to do at college?_ for students interested in this faculty
+- enable anyone curious to take a look at what I've done
 
 
 
 ## About the projects
 
-As I attended college in Romania, (parts of) some projects are written in romanian – signaled with a flag  🇷🇴.
+Each project has a one-line description and an accompanying screenshot (or gif).
 
-I will include one/two screenshots, or a gif, if appropriate, for each project.
+The [link](https://github.com/stefan1niculae/school-projects) mentions the project's language and points to its source.
 
-The name inside [brackets] is the (main) language of the project.
+A flag 🇷🇴 indicates that the project is written in romanian.
+
+
+
+I have included both projects with an interesting outcome, and ones that are stand out through their implementation.
+
+Earlier projects may not seem as impressive — their TODO
+
+
+
+## About the classes
+
+Classes are presented chronologically and grouped by semester. Each class features one or two significant projects.
+
+**Bachelor's** lasted 6 semesters (three years) and **Master's** — 4 semesters (two years).
+
+
+
+Some classes naturally lend themselves more to visualization (i.e: Computer Graphics).
+
+Some tend to be too theoretical/mathematical:
+
+* Mathematical and Computational Logic _(semester 1)_
+* Mathematical Analysis/Calculus _(semesters 1 & 2)_
+* (Linear) Algebra _(semesters 1 & 2)_
+* Calculability & Complexity *(semester 3)*
+* Logic Programming *(semester 4)*
+* Partial Derivatives and Differential Equations *(semester 5)*
+* Declarative Programming *(semester 6)*
+* (Mathematical) Optimization Techniques *(semester 6)*
+* Numerical Analysis *(semester 6)*
+
+Some are just not too visual:
+
+* Psychopedagogy *(semesters 1 - 4)*
+* Databases *(semester 4)*
+* Database Management Systems *(semester 5)*
+
+And, unfortunately, cannot be showcased in this format, as a screenshot and one-liner won't do them justice.
+
+
+
+Some classes required bigger projects — they each get a separate repo:
+
+* Software Development Methodologies *(semester 4)* – [Senile de Foc](https://github.com/stefan1niculae/senile-de-foc)
+* Web Development *(semester 5)* – [Blacksmith](https://github.com/stefan1niculae/blacksmith)
+* Software Engineering *(semester 6)* – [EasyVim](https://github.com/stefan1niculae/easyVim)
+
+
+
 
 ## Semester 1
+
+### Algorithms and Data Structures
+
+#### AVL Tree 🇷🇴
+
+[C++] Binary Search Tree balancing with graphic representation.
+
+![screenshot](1 AVL Tree/screenshot.png)
+
+### Computer Architecture
+
+#### Registers Stack 🇷🇴
+
+[Assembly] Read/write of a stack data structure implemented in a MIPS simulator.
+
+![screenshot](1 Registers Stack/screenshot.png)
 
 ## Semester 2
 
@@ -53,7 +91,7 @@ The name inside [brackets] is the (main) language of the project.
 
 #### Big Numbers 🇷🇴
 
-Data structure and operations for big integer and real numbers. [C++]
+[C++] Data structure and operations for big integer and real numbers.
 
 ![screenshot](2 Big Numbers/screenshot.png)
 
@@ -61,7 +99,7 @@ Data structure and operations for big integer and real numbers. [C++]
 
 #### Octonions 🇷🇴
 
-Essay on Octonions and Cayley's Algebra. 
+[Link] Essay on Octonions and Cayley's Algebra.
 
 ![screenshot](2 Octonions/screenshot.png)
 
@@ -69,7 +107,7 @@ Essay on Octonions and Cayley's Algebra.
 
 #### Matrix Operations 🇷🇴
 
-Row-wise operations including Polynomial arithmetic. For calculating the determinant or for finding the Jacobian matrix. [C++]
+[C++] Row-wise operations including Polynomial arithmetic, for calculating the Jacobian matrix. 
 
 ![screenshot](2 Algebra II/screenshot.png)
 
@@ -79,7 +117,7 @@ Row-wise operations including Polynomial arithmetic. For calculating the determi
 
 #### Does Money Come with Age? 🇷🇴
 
-Statistical exploration of wether income correlates with age. [R]
+[R] Statistical exploration of wether income correlates with age.
 
  ![document](3 Does Money Come with Age/screenshot.png)
 
@@ -87,7 +125,7 @@ Statistical exploration of wether income correlates with age. [R]
 
 #### Triangulation
 
-Checks wether a given point is inside (or on an edge)  a shape via triangulation. [Java]
+[Java] Checks wether a given point is inside (or on an edge) of a shape via triangulation.
 
 ![UI](3 Triangulation/screenshot.png)
 
@@ -95,7 +133,7 @@ Checks wether a given point is inside (or on an edge)  a shape via triangulation
 
 #### Multiplying Machine
 
-Turing Machine for multiplying a number by a constant. [JFLAP]
+[JFLAP] Turing Machine for multiplying a number by a constant.
 
 ![screenshot](3 Multiplying Machine/screenshot.jpg)
 
@@ -103,7 +141,7 @@ Turing Machine for multiplying a number by a constant. [JFLAP]
 
 #### Tired Explorer
 
-An explorer walks from the top of the map to the bottom. Each cell requires a certain amount of effort. Greedy implementation to find the optimal path — with matrix visualization. [Java]
+[Java] An explorer walks from the top of the map to the bottom. Each cell requires a certain amount of effort. Greedy implementation to find the optimal path — with matrix visualization. 
 
 ![screenshot](3 Tired Explorer/screenshot.png)
 
@@ -115,7 +153,7 @@ An explorer walks from the top of the map to the bottom. Each cell requires a ce
 
 #### Time Flies
 
-Simple game done in vanilla html, js & css. The idea is to catch as many hourglasses as you can. The more you catch, the faster they come (launched in a random direction). [JavaScript] 
+[JavaScript] Game in which you catch as many hourglasses as you can. The more you catch, the faster they come.
 
 ![Menu](4 Time Flies/start screenshot.png)
 ![Game](4 Time Flies/game screenshot.png)
@@ -124,19 +162,19 @@ Simple game done in vanilla html, js & css. The idea is to catch as many hourgla
 
 #### Point Classification
 
-Perceptron implementation for 2D-points classification. [Matlab]
+[Matlab] Perceptron implementation for 2D-points classification.
 
 ![demo](4 Perceptron/demo.gif)
 
 #### 3D Loss
 
-Visualization of loss function for three parameters. [Matlab]
+[Matlab] Visualization of loss function for three parameters. 
 
 ![screenshot](4 Loss/screenshot.png)
 
 ### Letter Recognition
 
-Noisy letters recognized using the Neural Network Toolbox. [Matlab]
+[Matlab] Noisy letters recognized using the Neural Network Toolbox.
 
 ![screenshot](4 Letter Recognition/screenshot.png)
 
@@ -144,19 +182,19 @@ Noisy letters recognized using the Neural Network Toolbox. [Matlab]
 
 #### Calculator
 
-Uses a client-server architecture. [Java]
+[Java] Simple calculator functions using a client-server architecture. 
 
 ![Calculator](4 Calculator/screenshot.png)
 
 #### Chatroom
 
-Broadcast and peer-to-peer cross-process communication. [Java]
+[Java] Features broadcast and peer-to-peer cross-process communication. 
 
  ![Client](4 Chatroom/screenshot.png)
 
 #### Contacts
 
-Simple CRUD website for contacts management. [JSP]
+[JSP] Simple CRUD website for contacts management.
 
 ![add](4 Contacts/add screenshot.png)
 ![search](4 Contacts/search screenshot.png)
@@ -165,7 +203,7 @@ Simple CRUD website for contacts management. [JSP]
 
 #### Random Points 🇷🇴
 
-Small paper on uniformly generating points inside a polygon. [Latex]
+[Latex] Small paper on uniformly generating points inside a polygon.
 
 ![screenshot](4 Random Points/screenshot.png)
 
@@ -183,7 +221,7 @@ Managed to fit the entire material in just under three pages.
 
 #### Store Planning Improvement 🇷🇴
 
-Simulation for a real food store with the goal of improving lunch-time customer flow. [GPSS]
+[GPSS] Simulation for a real food store with the goal of improving lunch-time customer flow.
 
  ![screenshot](5 Store Planning Improvement/screenshot.png)
 
@@ -191,7 +229,7 @@ Simulation for a real food store with the goal of improving lunch-time customer 
 
 #### 2D Birds
 
-2D birds (that look like bats) which move on a mouse-defined path [OpenGL].
+[OpenGL] Birds (that look like bats) which move on a mouse-defined path.
 
 ![demo](5 Birds/demo.gif)
 
@@ -199,7 +237,7 @@ Simulation for a real food store with the goal of improving lunch-time customer 
 
 #### 3D Dinosaurs
 
-3D dinosaurs in a lighted scene which can be observed by flying around [OpenGL].
+[OpenGL] Dinosaurs in a lighted scene which can be observed by flying around.
 
 ![screenshot](5 Dinosaurs/screenshot.png)
 
@@ -210,7 +248,7 @@ Simulation for a real food store with the goal of improving lunch-time customer 
 
 #### Python Lexer
 
-Python code syntactical lexer, from scratch. [Python].
+ [Python] Syntactical lexer for Python, from scratch.
 
  ![PyLex](6 Python Lexer/screenshot.png)
 
@@ -224,7 +262,7 @@ Bonus: high-school
 
 #### Snake 🇷🇴
 
-Moves once per second, opens its mouth and loves special food. [C++]
+[C++] Moves once per second, opens its mouth and loves special food.
 
 ![Snake](-1 Snake/screenshot.png)
 
@@ -232,6 +270,6 @@ Moves once per second, opens its mouth and loves special food. [C++]
 
 #### Whist 🇷🇴
 
- Helps you with the arithmetics needed for the card game _Whist_. [C++]
+[C++] Helps you with the arithmetics needed for the card game _Whist_. 
 
 ![screenshot](-1 Whist/screenshot.png)
