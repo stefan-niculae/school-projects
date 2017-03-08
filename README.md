@@ -3,10 +3,28 @@
 Showcase of some interesting projects I've done during college -- screenshots & source.
 
 ## Masters
+
+Currently in progress.
+
 ### Year 1
-TODO
+- _Programming Languages Semantics_ – [Abstract Machine](https://github.com/stefan1niculae/abstract-machine)
+
+- _Parallel & Concurrent Programming_ – [MNIST in MPI](https://github.com/stefan1niculae/mnist-in-mpi)
+
+
+<details><summary>Other Classes</summary>
+- Data Mining
+- Natural Language Processing
+- Information Retrieval
+- Advanced Algorithms & Data Structures
+- Implementing Concurrency in Programming Languages
+- Evaluating Informational Systems
+</details>
 
 ## Bachelors
+
+Thesis - [Selecting Impactful Product Features](https://github.com/stefan1niculae/undergrad-thesis)
+
 ### Year 3
   - _Software Engineering_ – [EasyVim](https://github.com/stefan1niculae/easyVim)
 
@@ -14,7 +32,7 @@ TODO
 
   - _Software Development Methodologies_ – [Senile de Foc](https://github.com/stefan1niculae/senile-de-foc)
 
-Click too see screenshots & details: 
+Click too see screenshots & details:
 
   <details><summary>_Compilation Techniques_ - Python Lexer</summary>
   `Python` Syntactical lexer for Python, from scratch.
@@ -146,7 +164,7 @@ Click too see screenshots & details:
   </details>
 
 
-### High School
+## High School
   <details><summary>Snake</summary>
   `C++` Moves once per second, opens its mouth and loves special food. 🇷🇴
   ![Snake](-1 Snake/screenshot.png)
