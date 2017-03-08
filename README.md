@@ -2,17 +2,19 @@
 
 Showcase of some interesting projects I've done during college -- screenshots & source.
 
-Each project is either a **link** to its separate repo or it's **clickable** in order to reveal details.
-
 ## Masters
 ### Year 1
 TODO
 
 ## Bachelors
 ### Year 3
-  _Software Engineering_ – [EasyVim](https://github.com/stefan1niculae/easyVim)
+  - _Software Engineering_ – [EasyVim](https://github.com/stefan1niculae/easyVim)
 
-  _Web Development_ – [Blacksmith](https://github.com/stefan1niculae/blacksmith)
+  - _Web Development_ – [Blacksmith](https://github.com/stefan1niculae/blacksmith)
+
+  - _Software Development Methodologies_ – [Senile de Foc](https://github.com/stefan1niculae/senile-de-foc)
+
+Click too see screenshots & details: 
 
   <details><summary>_Compilation Techniques_ - Python Lexer</summary>
   `Python` Syntactical lexer for Python, from scratch.
@@ -41,7 +43,6 @@ TODO
   </details>
 
 ### Year 2
-  _Software Development Methodologies_ – [Senile de Foc](https://github.com/stefan1niculae/senile-de-foc)
   <details><summary>_Web Techniques_ - Time Flies</summary>
   `JavaScript` Game in which you catch as many hourglasses as you can. The more you catch, the faster they come.
   ![Menu](4 Time Flies/start screenshot.png)
