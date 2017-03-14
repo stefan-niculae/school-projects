@@ -165,7 +165,7 @@ Click too see screenshots & details:
   </details>
   <details><summary><i>Geometry</i> - Octonions</summary>
 
-  `Link` Essay on Octonions and Cayley's Algebra. 🇷🇴
+  Essay on Octonions and Cayley's Algebra. 🇷🇴
   ![screenshot](Bachelors%20Year1/Octonions/screenshot.png)
   </details>
   <details><summary><i>Algorithms and Data Structures</i> - AVL Tree</summary>
