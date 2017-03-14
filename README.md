@@ -138,6 +138,7 @@ Click too see screenshots & details:
   ![screenshot](Bachelors%20Year2/Tired%20Explorer/screenshot.png)
   </details>
   <details><summary><i>Software Development Methodologies</i> - Exam Cheatsheet</summary>
+  
   Managed to fit the entire material in just under three pages.
   ![screenshot](Bachelors%20Year2/Methodologies%20Cheatsheet/screenshot.png)
   </details>
