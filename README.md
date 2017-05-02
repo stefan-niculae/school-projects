@@ -7,6 +7,8 @@ Showcase of some interesting projects I've done during college -- screenshots/gi
 Currently in progress.
 
 ### Year 1
+- _Information Retrieval_ – [Golden Retriever](https://github.com/stefan1niculae/golden-retriever)
+
 - _Programming Languages Semantics_ – [Abstract Machine](https://github.com/stefan1niculae/abstract-machine)
 
 - _Parallel & Concurrent Programming_ – [MNIST in MPI](https://github.com/stefan1niculae/mnist-in-mpi)
@@ -15,7 +17,6 @@ Currently in progress.
 <details><summary>Other Classes</summary>
 <li> Data Mining </li>
 <li> Natural Language Processing </li>
-<li> Information Retrieval </li>
 <li> Advanced Algorithms & Data Structures </li>
 <li> Implementing Concurrency in Programming Languages </li>
 <li> Evaluating Informational Systems </li>
