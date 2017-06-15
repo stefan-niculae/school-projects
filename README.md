@@ -13,12 +13,13 @@ Currently in progress.
 
 - _Parallel & Concurrent Programming_ – [MNIST in MPI](https://github.com/stefan1niculae/mnist-in-mpi)
 
+- _Implementing Concurrency in Programming Languages_ - [Actors in Elixir](https://github.com/stefan1niculae/actors-in-elixir)
+
 
 <details><summary>Other Classes</summary>
 <li> Data Mining </li>
 <li> Natural Language Processing </li>
 <li> Advanced Algorithms & Data Structures </li>
-<li> Implementing Concurrency in Programming Languages </li>
 <li> Evaluating Informational Systems </li>
 </details>
 
