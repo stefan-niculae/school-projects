@@ -10,8 +10,10 @@ Currently in progress.
 
 - _Digital Signal Processing_ – [Image Completion](https://github.com/stefan-niculae/image-completion)
 
-- _Applied Criptography_ - [Steganography](https://github.com/stefan-niculae/stegano)
-
+<details><summary><i>Applied Criptography</i> -Steganography</summary>
+`Python` Description, techniques and examples.
+![screenshot](Masters/stegano-screenshot.png)
+</details>
 
 <details><summary>Other Classes</summary>
 <li> Machine Learning </li>
@@ -154,7 +156,7 @@ Click too see screenshots & details:
   ![screenshot](Bachelors%20Year2/Tired%20Explorer/screenshot.png)
   </details>
   <details><summary><i>Software Development Methodologies</i> - Exam Cheatsheet</summary>
-  
+
   Managed to fit the entire material in just under three pages.
   ![screenshot](Bachelors%20Year2/Methodologies%20Cheatsheet/screenshot.png)
   </details>
