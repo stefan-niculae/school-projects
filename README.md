@@ -11,6 +11,7 @@ Currently in progress.
 - _Digital Signal Processing_ – [Image Completion](https://github.com/stefan-niculae/image-completion)
 
 <details><summary><i>Applied Criptography</i> -Steganography</summary>
+
 `Python` Description, techniques and examples.
 ![screenshot](Masters/stegano-screenshot.png)
 </details>
