@@ -5,15 +5,29 @@ Showcase of some interesting projects I've done during college -- screenshots/gi
 ## Masters
 
 Currently in progress.
+### Year 2
+- _Soft Computing_ – [Flappy Learn](https://github.com/stefan-niculae/flappy-learn)
+
+- _Digital Signal Processing_ – [Image Completion](https://github.com/stefan-niculae/image-completion)
+
+- _Applied Criptography_ - [Steganography](https://github.com/stefan-niculae/stegano)
+
+
+<details><summary>Other Classes</summary>
+<li> Machine Learning </li>
+<li> Neural Networks </li>
+<li> Reinforcement Learning </li>
+<li> Research Project </li>
+</details>
 
 ### Year 1
-- _Information Retrieval_ – [Golden Retriever](https://github.com/stefan1niculae/golden-retriever)
+- _Information Retrieval_ – [Golden Retriever](https://github.com/stefan-niculae/golden-retriever)
 
-- _Programming Languages Semantics_ – [Abstract Machine](https://github.com/stefan1niculae/abstract-machine)
+- _Programming Languages Semantics_ – [Abstract Machine](https://github.com/stefan-niculae/abstract-machine)
 
-- _Parallel & Concurrent Programming_ – [MNIST in MPI](https://github.com/stefan1niculae/mnist-in-mpi)
+- _Parallel & Concurrent Programming_ – [MNIST in MPI](https://github.com/stefan-niculae/mnist-in-mpi)
 
-- _Implementing Concurrency in Programming Languages_ - [Actors in Elixir](https://github.com/stefan1niculae/actors-in-elixir)
+- _Implementing Concurrency in Programming Languages_ - [Actors in Elixir](https://github.com/stefan-niculae/actors-in-elixir)
 
 
 <details><summary>Other Classes</summary>
@@ -25,14 +39,14 @@ Currently in progress.
 
 ## Bachelors
 
-Thesis - [Selecting Impactful Product Features](https://github.com/stefan1niculae/undergrad-thesis)
+Thesis - [Selecting Impactful Product Features](https://github.com/stefan-niculae/undergrad-thesis)
 
 ### Year 3
-  - _Software Engineering_ – [EasyVim](https://github.com/stefan1niculae/easyVim)
+  - _Software Engineering_ – [EasyVim](https://github.com/stefan-niculae/easyVim)
 
-  - _Web Development_ – [Blacksmith](https://github.com/stefan1niculae/blacksmith)
+  - _Web Development_ – [Blacksmith](https://github.com/stefan-niculae/blacksmith)
 
-  - _Software Development Methodologies_ – [Senile de Foc](https://github.com/stefan1niculae/senile-de-foc)
+  - _Software Development Methodologies_ – [Senile de Foc](https://github.com/stefan-niculae/senile-de-foc)
 
 Click too see screenshots & details:
 
@@ -40,7 +54,7 @@ Click too see screenshots & details:
 
   `Python` Syntactical lexer for Python, from scratch.
   ![PyLex](Bachelors%20Year3/Python%20Lexer/screenshot.png)
-  Automaton diagram ([full-size](https://raw.githubusercontent.com/stefan1niculae/school-projects/master/Python%20Lexer/DFA%20diagram.png)):
+  Automaton diagram ([full-size](https://raw.githubusercontent.com/stefan-niculae/school-projects/master/Python%20Lexer/DFA%20diagram.png)):
   ![DFA](Bachelors%20Year3/Python%20Lexer/DFA%20diagram.png)
   </details>
   <details><summary><i>Geometry Concepts for Computer Graphics</i> - 2D Birds</summary>
